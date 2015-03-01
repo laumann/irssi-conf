@@ -116,9 +116,12 @@ chatnets = {
 
 channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
-  { name = "#go-nuts"; chatnet = "fn"; autojoin = "yes"; },
+
   { name = "#rust"; chatnet = "mozilla"; autojoin = "yes"; },
   { name = "#rust-internals"; chatnet = "mozilla"; autojoin = "yes"; }
+
+  { name = "#go-nuts"; chatnet = "fn"; autojoin = "yes"; },
+  { name = "#cryptopartydk"; chatnet = "fn"; autojoin = "yes"; }
 );
 
 aliases = {
