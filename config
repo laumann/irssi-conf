@@ -293,7 +293,7 @@ statusbar = {
 };
 settings = {
   core = {
-    real_name = "Thomas Jespersen";
+    real_name = "Thomas Bracht Laumann Jespersen";
     user_name = "thomas";
     nick = "laumann";
     recode_fallback = "CP1252";
