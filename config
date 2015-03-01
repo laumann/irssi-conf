@@ -13,11 +13,7 @@ servers = (
     chatnet = "QuakeNet";
     port = "6667";
   },
-  {
-    address = "irc.oftc.net";
-    chatnet = "OFTC";
-    port = "6667";
-  },
+  { address = "irc.oftc.net"; chatnet = "OFTC"; port = "6667"; },
   {
     address = "irc.gamesurge.net";
     chatnet = "GameSurge";
@@ -118,7 +114,7 @@ channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
 
   { name = "#rust"; chatnet = "mozilla"; autojoin = "yes"; },
-  { name = "#rust-internals"; chatnet = "mozilla"; autojoin = "yes"; }
+  { name = "#rust-internals"; chatnet = "mozilla"; autojoin = "yes"; },
 
   { name = "#go-nuts"; chatnet = "fn"; autojoin = "yes"; },
   { name = "#cryptopartydk"; chatnet = "fn"; autojoin = "yes"; }
@@ -312,11 +308,7 @@ settings = {
 };
 ignores = (
   {
-    level = "CRAP MSGS NOTICES SNOTES CTCPS JOINS PARTS QUITS KICKS MODES TOPICS WALLOPS INVITES NICKS DCC DCCMSGS CLIENTNOTICES CLIENTCRAP CLIENTERRORS HILIGHTS";
-    channels = ( "#rust" );
-  },
-  {
-    level = "CRAP MSGS NOTICES SNOTES CTCPS JOINS PARTS QUITS KICKS MODES TOPICS WALLOPS INVITES NICKS DCC DCCMSGS CLIENTNOTICES CLIENTCRAP CLIENTERRORS HILIGHTS";
-    channels = ( "#go-nuts" );
+    #level = "CRAP MSGS NOTICES SNOTES CTCPS JOINS PARTS QUITS KICKS MODES TOPICS WALLOPS INVITES NICKS DCC DCCMSGS CLIENTNOTICES CLIENTCRAP CLIENTERRORS HILIGHTS";
+    level = "CRAP SNOTES CTCPS JOINS PARTS QUITS KICKS MODES TOPICS WALLOPS DCC DCCMSGS CLIENTNOTICES CLIENTCRAP CLIENTERRORS";
   }
 );
