@@ -232,6 +232,7 @@ statusbar = {
         act = { priority = "10"; };
         more = { priority = "-1"; alignment = "right"; };
         barend = { priority = "100"; alignment = "right"; };
+        usercount = { };
       };
     };
 
@@ -299,16 +300,21 @@ settings = {
   "fe-common/core" = {
     bell_beeps = "yes";
     beep_msg_level = "MSGS NOTICES DCC DCCMSGS HILIGHT";
+    term_charset = "utf-8";
   };
   "perl/core/scripts" = {
     awl_shared_sbar = "OFF";
     neat_colorize = "yes";
     awl_viewer = "no";
+    usercount_show_ircops = "yes";
   };
 };
 ignores = (
+  # {
+  #   level = "CRAP MSGS NOTICES SNOTES CTCPS JOINS PARTS QUITS KICKS MODES TOPICS WALLOPS INVITES NICKS DCC DCCMSGS CLIENTNOTICES CLIENTCRAP CLIENTERRORS HILIGHTS";
+  #   channels = ( "*" );
+  # },
   {
-    #level = "CRAP MSGS NOTICES SNOTES CTCPS JOINS PARTS QUITS KICKS MODES TOPICS WALLOPS INVITES NICKS DCC DCCMSGS CLIENTNOTICES CLIENTCRAP CLIENTERRORS HILIGHTS";
     level = "CRAP SNOTES CTCPS JOINS PARTS QUITS KICKS MODES TOPICS WALLOPS DCC DCCMSGS CLIENTNOTICES CLIENTCRAP CLIENTERRORS";
   }
 );
