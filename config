@@ -115,6 +115,8 @@ channels = (
 
   { name = "#rust"; chatnet = "mozilla"; autojoin = "yes"; },
   { name = "#rust-internals"; chatnet = "mozilla"; autojoin = "yes"; },
+  { name = "#rustc"; chatnet = "mozilla"; autojoin = "yes"; },
+  { name = "#servo"; chatnet = "mozilla"; autojoin = "yes"; },
 
   { name = "#go-nuts"; chatnet = "fn"; autojoin = "yes"; },
   { name = "#cryptopartydk"; chatnet = "fn"; autojoin = "yes"; }
